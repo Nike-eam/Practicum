@@ -1,0 +1,99 @@
+/*Ã±Ã²Ã¨Ã«Ã¨ Ã®Ã´Ã®Ã°Ã¬Ã«Ã¥Ã­Ã¨Ã¿ Ã±Ã²Ã°Ã Ã­Ã¨Ã·ÃªÃ¨ Index.html Ã¤Ã Ã­Ã­Ã»Ã© Ã¤Ã®ÃªÃ³Ã¬Ã¥Ã­Ã² Ã°Ã¥Ã¤Ã ÃªÃ²Ã¨Ã°Ã®Ã¢Ã Ã«Ã±Ã¿ Ã¢ Ã²Ã¥ÃªÃ±Ã²Ã®Ã¢Ã»Ãµ Ã°Ã¥Ã¤Ã ÃªÃ²Ã®Ã°Ã Ãµ Edit Plus Ã¨ Sublime Text 3*/
+body{
+background:url("../images/55.png");                                         /*Ã´Ã®Ã­Ã®Ã¢Ã Ã¿ Ã²Ã¥ÃªÃ±Ã²Ã³Ã°Ã  Ã±Ã²Ã°Ã Ã­Ã¨Ã·ÃªÃ¨*/
+}
+	.platform{
+	width:700px;
+	height:500px;
+	border:1px solid #fff;                                               /*Ã¢Ã¨Ã¤ Ã®Ã±Ã­Ã®Ã¢Ã­Ã®Ã© Ã·Ã Ã±Ã²Ã¨ Ã¯Ã°Ã®Ã½ÃªÃ²Ã  */
+	margin:50px auto;                                              
+	background:#006666;
+	box-shadow: 0 0 20px rgba(0,0,0,1); 
+	border-radius:5px;
+}
+	
+.header{
+	color:white;
+	font-size:20px;
+    padding-top: 5px;                                                      /*Ã•Ã¨Ã¤Ã¥Ã° Ã¯Ã°Ã®Ã½ÃªÃ²Ã */
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+	border-bottom:3px solid #fff;
+}
+
+
+ul{
+	float:left;
+	padding:0px;
+	color:#fff;                                                            /*Ã¯Ã®Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥ Ã±Ã¯Ã¨Ã±ÃªÃ */
+	margin-top:5px;
+	margin-bottom:10px;
+  }
+
+li{
+	list-style-type:none;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;                                                      /*Ã‘Ã²Ã¨Ã«Ã¨ Ã®Ã´Ã®Ã°Ã¬Ã«Ã¥Ã­Ã¨Ã¿ Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã®Ã¢ Ã±Ã¯Ã¨Ã±ÃªÃ , Ã¢ Ã¤Ã Ã­Ã®Ã¬ Ã±Ã«Ã³Ã·Ã Ã¥ Ã½Ã²Ã® Ã¬Ã¥Ã­Ã¾ ÃªÃ Ã°Ã²Ã¨Ã­ÃªÃ¨ Ã± Ã¯Ã®Ã¤Ã¯Ã¨Ã±Ã¼Ã¾*/
+    margin-bottom: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+li:hover{
+	background:#009966;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;                                       /*Ã Ã­Ã¨Ã¬Ã Ã¶Ã¨Ã¿ ÃªÃ Ã°Ã²Ã¨Ã­Ã®Ãª */
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,1); 
+	border-radius: 10px 10px 10px 10px;
+	transform: rotateY(360deg);
+    transition-duration: 2s; 
+}
+
+p{
+	margin-top: 0px;
+    margin-bottom: 0px;                                                  /*Ã€Ã¡Ã§Ã Ã¶*/
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+.fram{
+    float:right;
+	border:1px solid #fff;
+    margin-left: 8px;                                                    /*ÃÃ¥Ã¤Ã ÃªÃ²Ã¨Ã°Ã®Ã¢Ã Ã­Ã¨Ã¥ Ã²Ã¥Ã£Ã  iframe*/
+    width: 510px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 450px;
+}
+
+.img_naw{
+    margin:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;                                                  /*ÃªÃ Ã°Ã²Ã¨Ã­ÃªÃ¨ Ã¢ Ã Ã­Ã¨Ã¬Ã Ã¶Ã¨Ã¨*/
+ }
+
+
+
+.close{
+    float:right;
+    display:inline-block;                                                 /* Ã±Ã²Ã¨Ã«Ã¨ Ã¤Ã«Ã¿ ÃªÃ­Ã®Ã¯ÃªÃ¨ Ã§Ã ÃªÃ°Ã»Ã²Ã¼*/
+    }
+
+ 
+   a{
+    text-decoration:none;
+    color:#fff;                                                           /*Ã±Ã±Ã»Ã«Ã®Ã·ÃªÃ  Ã­Ã  Ã±Ã²Ã°Ã Ã­Ã¨Ã·ÃªÃ¥*/
+    }
+
+a:hover{
+  color:red;
+  }
